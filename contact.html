@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Shanyuktha D. Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                Shanyuktha<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li>
+                    <a href="contact.html" class="active nav-contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Contact Section -->
+    <main>
+        <section class="content-section contact-section">
+
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT ♡</p>
+
+                <h1 class="section-title">
+                    Get in <span>Touch</span>
+                </h1>
+
+                <p>
+                    Have an idea, a question, or an opportunity?
+                    I'd love to connect with you!
+                </p>
+            </div>
+
+            <div class="contact-layout">
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+
+                    <div class="feature-icon">💌</div>
+
+                    <h2>Let's create something meaningful</h2>
+
+                    <p>
+                        I'm interested in learning new technologies,
+                        exploring creative ideas, and connecting
+                        with people who share similar interests.
+                    </p>
+
+                    <div class="contact-item">
+                        <span>📧</span>
+
+                        <div>
+                            <h3>Email Me</h3>
+
+                            <p>
+                                <a href="mailto:dshanyuktha@gmail.com">
+                                    dshanyuktha@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>💜</span>
+
+                        <div>
+                            <h3>Areas of Interest</h3>
+
+                            <p>
+                                Web Development, AI and Machine Learning
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>✨</span>
+
+                        <div>
+                            <h3>Open to</h3>
+
+                            <p>
+                                Learning opportunities and collaboration
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="mailto:dshanyuktha@gmail.com"
+                       class="btn btn-primary">
+                        Send Me an Email →
+                    </a>
+
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contact-form">
+
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="email">Your Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="message">Your Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message ♡
+                    </button>
+
+                    <p id="form-message"
+                       class="form-message"
+                       role="status">
+                    </p>
+
+                    <p class="form-note">
+                        This demo form does not send messages directly.
+                        To contact Shanyuktha, use the email link instead.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>
+            © <span id="year"></span> Shanyuktha D.
+            Made with ♡ and lavender.
+        </p>
+
+        <button class="back-to-top" aria-label="Back to top">
+            ↑
+        </button>
+    </footer>
+
+</body>
+</html>
